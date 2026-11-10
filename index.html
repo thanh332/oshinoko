@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSHI NO KO — Behind the Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="stars-background" id="starsBackground"></div>
+
+    <header class="topbar">
+        <a href="#home" class="logo">推しの子<span>✦</span></a>
+        <nav>
+            <a href="#story">Story</a>
+            <a href="#characters">Charaktere</a>
+            <a href="#star-eyes">Sternenaugen</a>
+            <a href="#world">Idol-Welt</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+        <button id="starMode" class="small-button">✧ Star Mode</button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-glow"></div>
+            <div class="hero-content">
+                <p class="eyebrow">THE WORLD IS A STAGE ✦</p>
+                <h1>OSHI<br><span>NO KO</span></h1>
+                <p class="hero-japanese">輝きの裏側に、隠された真実。</p>
+                <p class="hero-description">
+                    Glitzernde Bühnen. Strahlende Idols. Millionen Fans.
+                    Doch hinter dem perfekten Lächeln verbirgt sich eine
+                    Geschichte voller Geheimnisse.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#story" class="primary-button">Die Geschichte entdecken ↓</a>
+                    <button class="outline-button" id="heroStarButton">⭐ Sternenaugen aktivieren</button>
+                </div>
+            </div>
+
+            <div class="hero-symbol">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="big-star">✦</div>
+                <div class="floating-star s1">✧</div>
+                <div class="floating-star s2">✦</div>
+                <div class="floating-star s3">✧</div>
+                <div class="floating-star s4">★</div>
+                <div class="hero-caption">THE TRUTH BEHIND THE SPOTLIGHT</div>
+            </div>
+
+            <div class="scroll-indicator">SCROLL TO EXPLORE ↓</div>
+        </section>
+
+        <section class="intro section" id="story">
+            <div class="section-label">01 — THE STORY</div>
+            <h2>Eine Welt voller <span>Illusionen.</span></h2>
+            <div class="intro-grid">
+                <div>
+                    <p class="large-text">
+                        Was passiert, wenn man plötzlich selbst Teil der
+                        Welt wird, die man vorher nur bewundert hat?
+                    </p>
+                    <p>
+                        <strong>Oshi no Ko</strong> erzählt die Geschichte
+                        der Zwillinge Aqua und Ruby, die auf ungewöhnliche
+                        Weise in die Welt der japanischen Unterhaltungsindustrie
+                        hineingeboren werden.
+                    </p>
+                    <p>
+                        Ihre Mutter ist Ai Hoshino – ein berühmtes Idol,
+                        das auf der Bühne alle mit ihrem Lächeln verzaubert.
+                        Doch das Leben im Rampenlicht ist komplizierter,
+                        als es von aussen aussieht.
+                    </p>
+                </div>
+                <div class="info-panel">
+                    <div class="info-line"><span>Genre</span><b>Drama · Mystery · Musik</b></div>
+                    <div class="info-line"><span>Originaltitel</span><b>【推しの子】</b></div>
+                    <div class="info-line"><span>Autor</span><b>Aka Akasaka</b></div>
+                    <div class="info-line"><span>Illustrationen</span><b>Mengo Yokoyari</b></div>
+                    <div class="info-line"><span>Manga</span><b>2020–2024</b></div>
+                    <div class="info-line"><span>Im Mittelpunkt</span><b>Idol- und Medienwelt</b></div>
+                </div>
+            </div>
+            <p class="spoiler-note">✦ Hinweis: Die folgenden Abschnitte enthalten einige Handlungspunkte und Figureninformationen.</p>
+        </section>
+
+        <section class="characters section" id="characters">
+            <div class="section-label">02 — THE CAST</div>
+            <h2>Die Gesichter hinter <span>dem Glanz.</span></h2>
+            <p class="section-subtitle">Klicke auf eine Charakterkarte, um mehr zu erfahren.</p>
+
+            <div class="character-grid">
+                <article class="character-card ai" data-character="ai">
+                    <div class="character-number">01</div>
+                    <div class="character-symbol">✦</div>
+                    <h3>Ai Hoshino</h3>
+                    <p class="role">Das strahlende Idol</p>
+                    <p>Ein Lächeln wie ein Stern. Eine Persönlichkeit voller Geheimnisse.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+
+                <article class="character-card aqua" data-character="aqua">
+                    <div class="character-number">02</div>
+                    <div class="character-symbol">◆</div>
+                    <h3>Aqua Hoshino</h3>
+                    <p class="role">Der nachdenkliche Bruder</p>
+                    <p>Beobachtet die Welt der Unterhaltung mit kritischem Blick.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+
+                <article class="character-card ruby" data-character="ruby">
+                    <div class="character-number">03</div>
+                    <div class="character-symbol">✧</div>
+                    <h3>Ruby Hoshino</h3>
+                    <p class="role">Der Traum vom Idol</p>
+                    <p>Sie möchte selbst auf der Bühne stehen und Menschen begeistern.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+
+                <article class="character-card kana" data-character="kana">
+                    <div class="character-number">04</div>
+                    <div class="character-symbol">★</div>
+                    <h3>Kana Arima</h3>
+                    <p class="role">Die talentierte Schauspielerin</p>
+                    <p>Eine erfahrene Darstellerin mit viel Ehrgeiz und Gefühl.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+
+                <article class="character-card akane" data-character="akane">
+                    <div class="character-number">05</div>
+                    <div class="character-symbol">◇</div>
+                    <h3>Akane Kurokawa</h3>
+                    <p class="role">Die genaue Beobachterin</p>
+                    <p>Eine Schauspielerin, die sich intensiv in Rollen hineinversetzen kann.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+
+                <article class="character-card mem" data-character="mem">
+                    <div class="character-number">06</div>
+                    <div class="character-symbol">♡</div>
+                    <h3>MEM-cho</h3>
+                    <p class="role">Die Social-Media-Expertin</p>
+                    <p>Selbstbewusst, unterhaltsam und geschickt im Umgang mit ihrer Community.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+
+                <article class="character-card miyako" data-character="miyako">
+                    <div class="character-number">07</div>
+                    <div class="character-symbol">✿</div>
+                    <h3>Miyako Saitou</h3>
+                    <p class="role">Die Managerin</p>
+                    <p>Sie übernimmt Verantwortung und hält die Familie zusammen.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+
+                <article class="character-card gotanda" data-character="gotanda">
+                    <div class="character-number">08</div>
+                    <div class="character-symbol">▣</div>
+                    <h3>Taishi Gotanda</h3>
+                    <p class="role">Der Filmregisseur</p>
+                    <p>Ein wichtiger Mensch in Aquas Weg durch die Film- und Fernsehwelt.</p>
+                    <button class="card-button">Profil öffnen ↗</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="star-eyes section" id="star-eyes">
+            <div class="section-label">03 — THE STAR EYES</div>
+            <h2>Die berühmten <span>Sternenaugen.</span></h2>
+
+            <div class="eyes-layout">
+                <div class="eye-art">
+                    <div class="eye eye-left"><span>✦</span></div>
+                    <div class="eye eye-right"><span>✦</span></div>
+                    <div class="eye-caption">THE EYES OF AN IDOL</div>
+                </div>
+                <div class="eyes-text">
+                    <p class="large-text">Ein Stern im Auge. Ein Geheimnis im Blick.</p>
+                    <p>
+                        Die Sternenaugen gehören zu den auffälligsten Symbolen
+                        in Oshi no Ko. Sie stehen in Verbindung mit der besonderen
+                        Ausstrahlung, dem Talent und der Wirkung bestimmter Figuren.
+                    </p>
+                    <p>
+                        Besonders bekannt sind Ais leuchtende Augen. Auch Aqua
+                        und Ruby tragen im Verlauf der Geschichte Sterne in
+                        ihren Augen. Die Darstellung und Bedeutung verändert
+                        sich je nach Figur und Handlung.
+                    </p>
+                    <p>
+                        Die Sterne sind nicht einfach nur ein hübsches Detail:
+                        Sie passen zum Thema des Werks – dem Glanz, den Menschen
+                        auf einer Bühne zeigen, und dem, was dahinterliegt.
+                    </p>
+                    <button class="primary-button" id="eyeButton">✦ Meine Augen zum Leuchten bringen</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="world section" id="world">
+            <div class="section-label">04 — BEHIND THE SCENES</div>
+            <h2>Die Welt hinter <span>der Bühne.</span></h2>
+            <p class="section-subtitle">Oshi no Ko zeigt viele Seiten der Unterhaltungsindustrie.</p>
+
+            <div class="world-grid">
+                <div class="world-card">
+                    <div class="world-icon">🎤</div>
+                    <h3>Idol-Kultur</h3>
+                    <p>Idols treten auf, singen, tanzen und bauen eine enge Verbindung zu ihren Fans auf. Ihr öffentliches Image spielt dabei eine grosse Rolle.</p>
+                </div>
+                <div class="world-card">
+                    <div class="world-icon">🎬</div>
+                    <h3>Schauspiel</h3>
+                    <p>Schauspielerinnen und Schauspieler verwandeln sich in andere Figuren. Dafür braucht es Übung, Ausdruck und ein gutes Verständnis für Rollen.</p>
+                </div>
+                <div class="world-card">
+                    <div class="world-icon">📱</div>
+                    <h3>Social Media</h3>
+                    <p>Videos, Trends und Posts können Menschen bekannt machen. Gleichzeitig zeigt die Geschichte, wie schwierig öffentliche Aufmerksamkeit sein kann.</p>
+                </div>
+                <div class="world-card">
+                    <div class="world-icon">🎥</div>
+                    <h3>Filmproduktion</h3>
+                    <p>Hinter einem Film stehen viele Menschen: Regie, Kamera, Schnitt, Drehbuch, Kostüme und Schauspiel.</p>
+                </div>
+                <div class="world-card">
+                    <div class="world-icon">💿</div>
+                    <h3>Musik & Auftritte</h3>
+                    <p>Musik, Choreografie, Bühnenlicht und Kostüme sorgen gemeinsam für eine beeindruckende Show.</p>
+                </div>
+                <div class="world-card">
+                    <div class="world-icon">✨</div>
+                    <h3>Image & Wahrheit</h3>
+                    <p>Die Serie stellt die Frage, wie viel von dem, was Fans sehen, eine Rolle ist – und wie viel das echte Leben zeigt.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline section">
+            <div class="section-label">05 — THE JOURNEY</div>
+            <h2>Eine Geschichte in <span>Etappen.</span></h2>
+            <div class="timeline-list">
+                <div class="timeline-item"><span>01</span><div><h3>Ein ungewöhnlicher Anfang</h3><p>Aqua und Ruby werden in eine Welt hineingeboren, die sie schon auf besondere Weise kennen.</p></div></div>
+                <div class="timeline-item"><span>02</span><div><h3>Neue Wege</h3><p>Die Zwillinge wachsen auf und verfolgen unterschiedliche Ziele in der Unterhaltungswelt.</p></div></div>
+                <div class="timeline-item"><span>03</span><div><h3>Die Bühne wird grösser</h3><p>Sie treffen auf neue Menschen, Projekte und Herausforderungen.</p></div></div>
+                <div class="timeline-item"><span>04</span><div><h3>Hinter den Kulissen</h3><p>Zusammenhänge und Geheimnisse werden nach und nach sichtbar.</p></div></div>
+            </div>
+        </section>
+
+        <section class="quiz-section section" id="quiz">
+            <div class="section-label">06 — FAN TEST</div>
+            <h2>Wie gut kennst du <span>Oshi no Ko?</span></h2>
+            <div class="quiz-box">
+                <div class="quiz-top"><span id="quizProgress">FRAGE 1 / 5</span><span>✦ FAN QUIZ ✦</span></div>
+                <div class="progress-track"><div id="progressBar"></div></div>
+                <h3 id="question">Wie heisst das berühmte Idol, das Aqua und Ruby zur Mutter haben?</h3>
+                <div class="answers" id="answers">
+                    <button class="answer">Kana Arima</button>
+                    <button class="answer">Ai Hoshino</button>
+                    <button class="answer">Akane Kurokawa</button>
+                </div>
+                <p id="quizFeedback"></p>
+                <button class="primary-button" id="nextQuestion" disabled>Weiter →</button>
+            </div>
+        </section>
+
+        <section class="final-section">
+            <div class="final-star">✦</div>
+            <p>THE SHOW MUST GO ON</p>
+            <h2>Jeder Stern erzählt<br>eine Geschichte.</h2>
+            <button class="primary-button" id="secretButton">Ein kleines Geheimnis öffnen ✧</button>
+            <p id="secretMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">推しの子 ✦</div>
+        <p>Eine Fan-Website über Oshi no Ko</p>
+        <p class="footer-small">Fanprojekt · Nicht offiziell mit den Rechteinhabern verbunden.</p>
+    </footer>
+
+    <!-- Charakter-Popup -->
+    <div class="modal" id="characterModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">×</button>
+            <div class="modal-symbol" id="modalSymbol">✦</div>
+            <p class="section-label">CHARACTER PROFILE</p>
+            <h2 id="modalName">Ai Hoshino</h2>
+            <p id="modalRole" class="modal-role"></p>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">✦ Ein Stern ist erwacht!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
